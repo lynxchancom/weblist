@@ -53,7 +53,9 @@ ul a {
   text-decoration: none;
   margin: 2px;
 }
-
+ul .logomenu{
+  width: 20px;
+}
 .checkbox-container {
   display: block;
   margin-top: 50px;
