@@ -27,38 +27,53 @@ body {
   vertical-align: middle;
 }
 
+    /****/
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+  background-color: #195fab;
+}
+
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px #072E97;
+  border-radius: 10px;
+  background-color: #195fab;
+}
+
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 0px rgba(240, 240, 240, .5);
+  background-color: rgba(240, 240, 240, .5);
+}
 </style>
 
 
 <body>
 <div id="adsLeft">...</div>
 
-
-
 <footer>
 <center>
 <div style="width:90%;height:90%;background-color: rgba(0,0,0,0.5);color:white;border:none;padding:2%;font:22px/30px sans-serif;">
-<b>Multi Chan</b>
+    <iframe src="https://lynxchan.com/" frameborder="0" scrolling="yes" seamless="seamless" style="display:inherit; width:100%; height:100%; top: 0; left: 0"></iframe>
+<b>Lynx Chan</b>
 <br>
-The Multi Chan is a simple directory using iframe to embed other websites with a pure css menu.
+
 <br>
 ↖️The menu is top left!
 <br>
-Click on the curved arrow ↩️ for direct linking.
+😊Click on the curved arrow ↩️ for direct linking.
 <br>
 <br>
-<a href="http://zxvgchmekpynml76aqkx4vbypw26o4nk7rfvk7v2nyfeot4nagqjqhyd.onion/tor/index.html">Tor version</a>
+<a href="/tor/index.html">Tor version</a>
 <br>
 <br>
 
-The goal is to put all the actives boards splitted on multiples Imageboards at the same place. Similar to allchans but more minimalistic. It aims at keeping alt chans somehow decentralized as it is now but without having dozens of /b/ or /pol/ on multiples places.
-<br>
-With the Multi Chan we can browse multiples Imageboards as if we were on the same website, it might not be perfect though, cookies gestions and others bugs might appears, but it just works 😊
 <br>
 I'll update it frequently, request new boards or changes  <a href="/meta.html">Here</a> 
 <br>
-I'm just doing this for fun, don't be assholes with me (dev), it took me a long time to make this website and make it work fine (something like 4 hours 😁).
-<br>
+
 <br>
 <a href="https://gitgud.io/MultiChan/multichan" target= "_blank">GitGud repo</a>
 <br>
@@ -72,22 +87,13 @@ https://gitgud.io/LynxChan/LynxChan
 https://github.com/fatchan/jschan
 <br>
 <br>
-If you want to create a board to host a community ask to julay.world, astrochan.net or host your own.</a>
-<br>
-<br>
-Boards with the highest PPH are the one privileged on the multichan, but there are others criterions like allowing to post from a tor address, not using google recaptcha...
-<br>
-<br>
-<span style="background-color: #000"><font color="#36ff00">>I want more IBs!</font></span><br>Here is a massive maintained list of IBs: https://github.com/ccd0/imageboards.json
-<br>
-<br>
-Email: multichan@secmail.pro
+
 </div>
 </center>
 </footer> 
     </body>
 <script src="js/jquery.js"></script>
 <script type="text/javascript">
-    $("#adsLeft").load("js/menu.html");
+    $("#adsLeft").load("https://web.lynxchan.com/js/menu.html");
 </script>
 </html>
