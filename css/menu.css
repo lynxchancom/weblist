@@ -6,7 +6,8 @@ html, * {
 }
 
 body {
-  background-image: url("/image/back.jpg");     /** FUNCTIONAL CSS MORE DOWN**/
+  /**background-image: url("/image/back.jpg");      FUNCTIONAL CSS MORE DOWN**/
+  background: #b2f3f3;
   background-size: cover;
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
