@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #b1ebff;
+  color: #35cbff;
   background-color: #0B2027;
   padding: -10px;
   border-radius: 5px;
@@ -24,13 +24,14 @@ a {
 
 .checkbox-container {
   display: block;
-  margin-top: 25px;
+  margin-top: 50px;
   float: left;
   width: 0px;
   height: 0px;
-  position: relative;
+  /*position: relative;*/
+  position: fixed;
   background: #182825;
-  opacity: 0.85;
+  opacity: 0.95;
 }
 
 .checkbox-trigger {
@@ -94,9 +95,13 @@ a {
 
 .checkbox-trigger:checked + .menu-content ul {
   width: 200px;
-  height: 500px;
+  /*height: calc((160vh - 10px)/2 - 10px);*/
   transition: width 0.7s ease 0.3s, height 0.3s ease;
   overflow-y: auto;
+  text-align: end;
+    direction: rtl;
+    height: calc(100vh - 52px);
+    padding-left: 1em;
 }
 
 .menu-content {
@@ -128,10 +133,6 @@ a {
 
 .menu-content ul li:hover {
   color: #0CD6AD;
-  background: #1E332F;
+  background: #f2f614;
 }
 h1 { color:#fff; padding:70px 0;}
-
-	
-
-
