@@ -1,3 +1,4 @@
+/*************
 html { height: 100%; }
 
 html, * {
@@ -14,8 +15,8 @@ body {
   text-align: center;
   color: #45565E;
 }
-
-a {
+*******************/
+ul a {
   color: #35cbff;
   background-color: #0B2027;
   padding: -10px;
@@ -101,7 +102,7 @@ a {
   overflow-y: auto;
   text-align: end;
     direction: rtl;
-    height: calc(100vh - 52px);
+    height: calc(100vh - 100px);
     padding-left: 1em;
 }
 
@@ -136,4 +137,4 @@ a {
   color: #0CD6AD;
   background: #f2f614;
 }
-h1 { color:#fff; padding:70px 0;}
+/****h1 { color:#fff; padding:70px 0;}*******/
