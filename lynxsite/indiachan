@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>/indiachan/ LynxChan</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="/css/menu.css" type="text/css" rel="stylesheet" />
+<link href="https://indiachan.com/.static/favicon.png" rel="shortcut icon" type="image/x-icon">
+</head>
+
+
+<body>
+<div id="adsLeft">...</div>
+<style>
+body {
+    margin: 0;
+}
+
+</style>
+
+
+<iframe src="https://indiachan.com/b/" frameborder="0" scrolling="yes" seamless="seamless" style="display:inherit; width:100%; height:100vh; top: 0; left: 0"></iframe>
+
+</body>
+
+<!--Script to retrieve framed website favicon using jquery for firefox, blocked by "Fanboy's Enhanced Tracking List‎" rule on ublock-->
+<script>
+$(document).ready(function(){
+$("link[rel='shortcut icon']").attr("href", "https://indiachan.com/.static/favicon.png");
+});
+</script>
+<script src="/js/jquery.js"></script>
+<script type="text/javascript">
+    $("#adsLeft").load("https://web.lynxchan.com/js/menu.html");
+</script>
+</html>
