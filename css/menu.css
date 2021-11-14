@@ -46,15 +46,17 @@ body {
   background-color: #8bc34a;
 }
 
-ul a {
+ul{
+> a {
   color: #35cbff;
   background-color: #0B2027;
   border-radius: 5px;
   text-decoration: none;
   margin: 2px;
 }
-ul .logomenu{
+> .logomenu{
   width: 20px;
+}
 }
 .checkbox-container {
   display: block;
