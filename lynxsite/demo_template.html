@@ -25,7 +25,17 @@ body {
 <iframe is="x-frame-bypass" src="https://lynxchan.com/" frameborder="0" scrolling="yes" seamless="seamless" style="display:inherit; width:100%; height:100vh; top: 0; left: 0"></iframe>
 
 </body>
+    
+<!--Script to bypass websites denying Iframe-->
+<script src="/js/xframe-safari.js"></script>
+<script type="module" src="/js/xframe.js"></script>
 
+<!--Script to retrieve framed website favicon using jquery for firefox, blocked by "Fanboy's Enhanced Tracking List‎" rule on ublock-->
+<script>
+$(document).ready(function(){
+$("link[rel='shortcut icon']").attr("href", "https://lynxchan.com/favicon.ico");
+});
+</script>
 
 <script src="/js/jquery.js"></script>
 <script type="text/javascript">
