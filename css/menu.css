@@ -59,7 +59,7 @@ ul .logomenu{
 }
 .checkbox-container {
   display: block;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   float: left;
   width: 0px;
   height: 0px;
@@ -141,8 +141,8 @@ ul .logomenu{
 
 .menu-content {
   display: flex;
-  background: #182825;
-  color: white;
+  /*background: #182825;
+  color: white;*/
   float: left;
 }
 
